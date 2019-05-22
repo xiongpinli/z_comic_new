@@ -49,6 +49,7 @@ public class MainActivity extends BaseFragmentActivity {
 
     @Override
     protected void initView() {
+        // 尝试修改一个备注来做一次提交
         mHome.setBackgroundResource(R.drawable.homepage_press);
         fragments = new ArrayList<>();
         fragmentManager = getSupportFragmentManager();
